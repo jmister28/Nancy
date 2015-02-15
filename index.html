@@ -7,13 +7,13 @@
    <h1>
      <script>
             var holAsk = prompt "What holiday is it (no capitals or periods, apostrophe, etc...)";
-       var a1 = array("Valentine");
+       var a1 = ["Valentine"];
        a1[1] = "I love you Mom also Happy Valentines day -Jesse";
        if (holAsk == "valentines day") {
-         document.write(a1[1]);
+         confirm(a1[0]);
        }
         else {
-          document.write("Invalid Holiday or today is not that holiday.");
+          confirm("Invalid Holiday or today is not that holiday.");
        }
      </script>
      </h1>
